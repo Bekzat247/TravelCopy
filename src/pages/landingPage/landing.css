@@ -1,0 +1,33 @@
+.carousel .control-dots{
+    margin-bottom: 80px;
+}
+.carousel .control-dots .dot{
+    background: #FA541C;
+}
+.carousel.carousel-slider .control-arrow{
+    display: flex;
+    width: 56px;
+    height: 56px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: var(--01-primary-03-main, #FA541C);
+    box-shadow: 0px 8px 16px 0px rgba(250, 84, 28, 0.24);
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+.carousel .control-prev.control-arrow {
+    display: none;
+}
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow{
+    opacity: 1;
+}
+.carousel.carousel-slider .control-arrow:hover{
+    background: var(--01-primary-03-main, #FA541C);
+}

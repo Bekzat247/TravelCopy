@@ -1,0 +1,195 @@
+/* .fea_tours h1{
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    font-family: 'Barlow', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    cursor: pointer;
+}
+.fea_tours p{
+    color: var(--11-text-color-light-02-text-secondary, #637381);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.fea_cards{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+.fea_cards p{
+    color: var(--11-text-color-light-02-text-secondary, #637381);
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    align-self: stretch;
+}
+.fea_cards h1{
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    align-self: stretch;
+    cursor: pointer;
+
+}
+ */
+.fea_card{
+    display: flex;
+    height: 435px;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 16px;
+    background: var(--12-background-light-02-paper, #FFF);
+    box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+}
+.fea_card >div:first-child > div{
+    display: flex;
+    width: 100%;
+    padding: 12px 12px 0px 16px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+.fea_card >div:first-child > div label{
+    display: flex;
+    width: fit-content;
+    padding: 0px 8px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    color: var(--08-common-01-white, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    border-radius: 6px;
+    background: var(--07-grey-800, #212B36);
+}
+.fea_card >div:first-child {
+    display: flex;
+    width: 100%;
+    height: 242px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-size: cover;
+    position: relative;
+    border-radius: 16px 16px 0 0;
+}
+
+.fea_liker,
+.fea_opaLiker{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background:black;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.fea_opaLiker{
+    opacity: 1;
+}
+.fea_tour{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.fea_tour >div:first-child{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+.fea_tour >div:first-child h1{
+    margin-bottom: 32px;
+}
+.fea_tour > div:last-child{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-top: 1px dashed #919EAB3D;
+}
+.fea_tour >div:last-child > div{
+    display: flex;
+    align-items: center;
+}
+.fea_tour div:last-child div:first-child{
+    gap: 8px;
+}
+.fea_tour div:last-child div:last-child{
+    gap: 4px;
+}
+.fea_tour h1{
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    align-self: stretch;
+    cursor: pointer;
+}
+.wrapper a{
+    text-decoration: none;
+}
+.wrapper p{
+    color: var(--11-text-color-light-02-text-secondary, #637381);
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    align-self: stretch;
+}
+.fea_card > div:nth-child(1) img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 0 0 ;
+    z-index: 1;
+}
+.fea_card > div:nth-child(1) > div{
+    z-index: 2;
+}
+.wrapper{
+    width: calc(25% - 30px);
+}
+@media (max-width: 1300px) {
+    .wrapper{
+        width: calc(33.33% - 30px);
+    }
+    
+}
+@media (max-width: 1100px) {
+    .wrapper{
+        width: calc(50% - 30px);
+    }
+    
+}
+@media (max-width: 568px) {
+    .wrapper{
+        width: calc(100%);
+    }
+    
+}

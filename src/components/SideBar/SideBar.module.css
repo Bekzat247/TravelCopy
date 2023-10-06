@@ -1,0 +1,158 @@
+.HLposts h3{
+    color: #212B36;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.HLposts > input::placeholder,
+.HLcategories span,
+.HLRecentPost > div span,
+.HLRecentPost > div i,
+.HLPopularTegs >div > button,
+.HLAdvertisement button{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.72;
+}
+.HLposts{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+.HLposts > input{
+    display: flex;
+    padding: 14px 0px 14px 46px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    background:  rgba(145, 158, 171, 0.08);
+    outline: none;
+    border: none;
+    background-image: url(../../pages/blogPage/blogPageImage/ic_search.svg);
+    background-position: 4%;
+    background-repeat: no-repeat;
+}
+.HLposts > input::placeholder{
+    color:  #919EAB;
+    opacity: 1;
+}
+.HLcategories,
+.HLRecentPost,
+.HLPopularTegs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+.HLcategories span,
+.HLRecentPost > div span,
+.HLRecentPost > div i{
+    color: #212B36;
+    opacity: 1;
+    font-weight: 600;
+}
+.HLcategories li{
+    color: #FA541C;
+    margin-left: 20%;
+}
+.HLRecentPost,
+.HLPopularTegs{
+    gap: 24px;
+}
+.HLRecentPost > div{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    width: 100%;
+    height: 80px;
+    cursor: pointer;
+}
+.HLRecentPost > div > img{
+    height: 100%;
+    border-radius: 16px;
+}
+.HLRecentPost > div i{
+    color: #919EAB;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.HLRecentPost > div > div{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.HLPopularTegs > div{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.HLPopularTegs >div > button{
+    display: flex;
+    padding: 4px 12px;
+    align-items: center;
+    border-radius: 8px;
+    background:  rgba(145, 158, 171, 0.16);
+    opacity: 1;
+    border: none;
+    color: #637381;
+    cursor: pointer;
+}
+.HLAdvertisement{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -1.23%, #000 80%), url(../../pages/blogPage/blogPageImage/Card/IMG.png);
+    width: 100%;
+    height: 364px;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    padding: 0px 40px 40px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    justify-content: flex-end;
+}
+.HLAdvertisement h2{
+    color: #22B8CF;
+}
+.HLAdvertisement span {
+    color: #fff;
+    text-align: center;
+}
+.HLAdvertisement > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+.HLAdvertisement button{
+    display: flex;
+    padding: 6px 16px;
+    justify-content: center;
+    align-items: center;
+    font-size: 600;
+    line-height: 24px;
+    background: #FA541C;
+    border-radius: 8px;
+    opacity: 1;
+    cursor: pointer;
+    border: none;
+}
+@media (max-width: 576px){
+    .HLposts > input{
+        position: absolute;
+        top: 13%;
+        width: 90%;
+    }
+}

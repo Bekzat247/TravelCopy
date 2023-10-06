@@ -1,0 +1,290 @@
+.herTravel {
+    width: 100%;
+}
+.heroTravel > div{
+    display: flex;
+    padding: 80px 0;
+    align-items: flex-start;
+    gap: 24px;
+    height: 664px;
+    margin-bottom: 9%;
+}
+.container{
+    margin: 0 144px;
+}
+.heroTravel > div > div{
+    width: 50%;
+    height: 109%;
+}
+.heroTravel > div > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.heroTravel > div > div:nth-child(2) span{
+    display: none;
+}
+.heroTravel > div > div:nth-child(2) h2{
+    font-size: 18px;
+    line-height: 28px;
+    
+}
+.heroTravel > div > div:nth-child(2) > div{
+    height: 50%;
+    width: 100%;
+}
+.heroTravel > div > div:nth-child(2) > div:nth-child(1) > div{
+    padding: 24px
+}
+.heroTravel> div > div:nth-child(2) > div:nth-child(2) > div{
+    width: 50%;
+    height: 100%;
+}
+.heroTravel> div > div:nth-child(2) > div:nth-child(2){
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    justify-content: space-between;
+    align-self: stretch;
+}
+.heroTravel> div > div:nth-child(2) > div:nth-child(2) > div > div{
+    padding: 24px;
+}
+.Tranding{
+    padding: 80px 0;
+    background: #F9FAFB;
+}
+.Tranding > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+
+}
+.Tranding > div > div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+.Tranding h1,
+.trandingBlocks h2,
+.highLights h1{
+    color: #212B36;
+    font-family: 'Barlow', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px; 
+}
+.trandingBtns {
+    display: flex;
+    gap: 16px;
+}
+.trandingBtns button{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.trandingBtns > button:nth-child(1){
+    transform: rotate(180deg);
+}
+.HLPostDiv{
+    width: 34%;
+}
+.trandingBlocks{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%;
+}
+.trandingBlocks h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #fff;
+}
+.trandingBlocks span{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.72;
+}
+.trandingBlock{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -1.23%, #000 80%), url(./blogPageImage/blogUsers/IMG\ BG.png);
+    border-radius: 16px;
+    width: 25%;
+    height: 202px;
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    justify-content: flex-end;
+}
+.highLights{
+    display: flex;
+    padding: 80px 0 0 0 ;
+    align-items: flex-start;
+    gap: 64px;
+    align-self: stretch;
+}
+.highLights h1{
+    margin-bottom: 48px;
+}
+.cardWrapper{
+    display: flex;
+    width: 66%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 37px;
+}
+.HLInfo{
+    display: flex;
+    gap: 64px;
+    align-self: stretch;
+}
+.highLights > div{
+    width: 100%;
+}
+.Tranding > div > div:nth-child(2){
+    width: 100%;
+}
+.Tranding > div >div:nth-child(2){
+    overflow: hidden;
+}
+.trandingBlocks {
+    width: fit-content;
+}
+.trandingBlock{
+    width: 290px;
+}
+@media (max-width: 1100px) {
+    .heroTravel > div{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .heroTravel > div > div{
+        width: 85%;
+        height: 400px;
+    }
+    .heroTravel > div > div:nth-child(2) > div{
+        width: 100%;
+        height: 300px;
+    }
+}
+@media (max-width:576px){
+    .heroTravel{
+        padding: 0px 20px 64px 20px;
+    }
+    .heroTravel > div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        padding: 100px 0 0 0;
+        margin: 0;
+    }
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+    .heroTravel > div > div{
+        width: 100%;
+        height: 350px
+    }
+    .heroTravel > div > div span{
+        display: none;
+    }
+    .heroTravel > div > div:nth-child(2){
+        display: flex;
+        height: fit-content;
+    }
+    .heroTravel > div > div:nth-child(2) > div{
+        height: 350px;
+    }
+    .heroTravel > div > div:nth-child(2) > div:nth-child(2) {
+        height: fit-content;
+        flex-direction: column;
+    }
+    .heroTravel  >div > div:nth-child(2) > div:nth-child(2) > div{
+        width: 100%;
+        height: 350px;
+    }
+    .Tranding{
+        width: 100%;
+        padding: 64px 20px;
+    }
+    .Tranding > div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+        position: relative;
+        margin-bottom: 35%;
+
+    }
+    .Tranding h1{
+        font-size: 24px;
+    }
+    .trandingBlocks{
+        width: 740%;
+        display: flex;
+        justify-content: space-between;
+        height: 250px;
+
+    }
+    .trandingBlock{
+        width: 370px !important;
+        height: 250px;
+    }
+    .trandingBtns{
+        position: absolute;
+        top: 120%;
+        left: 35%;
+    }
+    .highLights{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .highLights> div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+    .HLInfo{
+        flex-direction: column;
+        gap: 0;
+    }
+    .cardWrapper{
+        gap: 32px;
+        width: 100%;
+        padding: 0 0 64px 0 ;
+    }
+    .HLPostDiv{
+        width: 100%;
+        padding: 0 0 64px 0;
+    }
+    .cardWrapper > div:last-child{
+        padding: 32px 0 0 0 ;
+    }
+    .highLights >div > div:nth-child(1){
+        width: 100%;
+    }
+    .highLights > div:nth-child(1) h1{
+        font-size: 24px;
+        margin: 48px 0;
+        text-align: left;
+    }
+}

@@ -1,0 +1,38 @@
+.inputs input {
+    display: flex;
+    height: 56px;
+    padding: 14px 0 16px 12px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    background: rgba(145, 158, 171, 0.08);
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.inputs button{
+    width: 250px;
+    border: none;
+    cursor: pointer;
+    height: 56px;
+    background: #FA541C;
+    border-radius: 16px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.inputs{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.wrapper{
+    padding:  50px 144px;
+}
+.wrapper h1{
+    font-family: 'Barlow', sans-serif;
+    font-size: 48px;
+    margin-bottom: 48px;
+}

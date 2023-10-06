@@ -1,0 +1,878 @@
+.Container{
+    margin: auto 144px;
+}
+.wrapper> div:nth-child(2){
+    padding: 40px 0 0 0;
+}
+.gallery > div > img{
+    width: 49.5%;
+    height: 50%;
+    flex-shrink: 0;
+}
+.gallery > div > div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 49.5%;
+    height: 50%;
+    gap: 8px;
+}   
+.gallery > div{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 8px;
+    align-items: center;
+}
+.gallery{
+    padding: 40px 0 80px 0;
+    display: flex;
+    align-items: flex-start;
+    gap:8px;
+}
+.gallery img{
+    border-radius: 16px;
+}
+.gallery > div > div > img{
+    width: 49%;
+}
+.overview{
+    width: 100%;
+    padding: 0px 0 120px 0;
+    border-bottom: 1px solid #919EAB3D;
+}
+.overview > div{
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+    justify-content: space-between;
+}
+.overviewText{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    flex-shrink: 0;
+}
+.OT1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+.OT1 h1{
+    color:  #212B36;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px; 
+}
+.OT1 div{
+    display: flex;
+    align-items: flex-start;    
+}
+.OT1 button{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.OT2, 
+.OT2 div{
+    display: flex;
+    align-items: center;
+    
+}
+.OT2{
+    gap:24px;
+}
+.OT2, 
+.OT3{
+    border-bottom: 1px dashed #919EAB3D;
+    padding-bottom: 40px;
+    width: 100%;
+
+}
+.OT2 div{
+    gap: 8px;
+}
+.OT2 p,
+.OT2 span{
+    text-align: center;
+}
+.OT2 p, 
+.OT2 span, 
+.OT3 p,
+.OT3 span, 
+.OT4 p,
+.OTBTNS p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 26px;
+}
+.OT2 p,
+.OTBTNS p{
+    color: #212B36;
+    font-weight: 600;
+
+}
+.OT2 > div:nth-child(1) p{
+    font-size: 18px;
+}
+.OT2 span{
+    color: #637381;
+    font-weight: 400;
+}
+.OT2 > div:nth-child(2) p{
+    font-weight: 400;
+}
+.OT2 > div:nth-child(3) p{
+    font-weight: 600;
+}
+.OT2 > div:nth-child(3) img{
+    width: 24px;
+    border-radius: 100px;
+}
+.OT3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+
+}
+.OT3 > div{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+.OT3 > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1 0 0;
+}
+.OT3 > div > div > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    flex: 1 0 0;
+}
+.OT3 span{
+    line-height: 28px;
+    font-size: 16px;
+    color: #637381;
+}
+.OT3 p{
+    color: black;
+}
+.OT3 > div > div > div{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+.OT4 p{
+    color: black;
+    max-width: 100%;
+}
+.OT4,
+.OT5,
+.OT6,
+.OT7,
+.OT7 > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+.OT5 li{
+    color: #212B36;
+    max-width: 100%;
+}
+.OT5 span,
+.OT7 p{
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+.OT5 ul {
+    margin-left: 20px
+}
+.OT6 > div{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+.OT6 > div > div > div{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.OT6 > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+.OT7 > div{
+    gap: 8px;
+}
+.OT7 > div > div,
+.OTBTNS,
+.OCPrice > div:nth-child(1){
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.OT7 > div > div > div{
+    width: 12px;
+    height: 1px;
+    border: #FA541C solid 1px;
+    border-radius: 50px;
+}
+.OT7 span{
+    color: var(--01-primary-03-main, #FA541C);
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+.OTBTNS {
+    gap: 16px;
+}
+.OTBTNS button{
+    display: flex;
+    padding: 4px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+}
+.BTN1{
+    color:#1877F2;
+    border: 1px solid #1877F2;
+}
+.BTN2{
+    color:#E02D69;
+    border: 1px solid #E02D69;
+}
+.BTN3{
+    color:#007EBB;
+    border: 1px solid #007EBB;
+}
+.BTN4{
+    color:#00AAEC;
+    border: 1px solid #00AAEC;
+}
+.overviewCard{
+    display: flex;
+    width: 342px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--12-background-light-02-paper, #FFF);
+    box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+}
+.OCPrice{
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    border-bottom: 1px dashed #919EAB3D;
+}
+.OCPrice > div:nth-child(1){
+    gap: 8px;
+}
+.OCPrice > div:nth-child(1) > h2,
+.reviewCard > div:nth-child(1) > div:nth-child(2) span,
+.reviewCard > div:nth-child(3) span{
+    color: #212B36;
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+.OCPrice > div:nth-child(1) > h2:nth-child(1){
+    color: #919EAB;
+    text-decoration-line: line-through;
+}
+.OCPrice > div:nth-child(1) >p{
+    color: var(--11-text-color-light-03-text-disabled, #919EAB);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+.OCPrice > div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.OCPrice > div:nth-child(2),
+.OCPrice > div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+.OCPrice > div:nth-child(3){
+    gap: 16px;
+}
+.OCPrice > div:nth-child(2) input{
+    display: flex;
+    padding: 0px 199px 2px 0px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    background:rgba(145, 158, 171, 0.08); 
+    height: 56px;
+    border: none;
+    display: flex;
+    padding: 14px 0px 14px 35px;
+    align-items: center;
+    gap: 8px;
+    background-repeat: no-repeat;
+    background-position: calc(5% - 5px);
+    outline: none;
+    color: #919EAB;
+}
+.OCPrice > div:nth-child(2) input:nth-child(1){
+    background-image: url(./detailsImage/OC/ic_calendar.svg);
+}
+.OCPrice > div:nth-child(2) input:nth-child(2){
+    background-image: url(./detailsImage/OC/ic_user.svg);
+}
+.OCPrice > div:nth-child(3) > div,
+.OCreserve div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+.OCPrice > div:nth-child(3) > div p,
+.OCPrice > div:nth-child(2) input,
+.OCPrice > div:nth-child(3) > div span,
+.OCreserve span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.OCPrice > div:nth-child(3) > div p{
+    color: #919EAB;
+}
+.OCreserve{
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+.OCreserve button{
+    display: flex;
+    width: 308px;
+    padding: 11px 22px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 8px;
+    background:  #FA541C;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; 
+    border: none;
+    cursor: pointer;
+}
+.reviews > div{
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+    align-self: stretch;
+    padding: 120px 0;
+}
+.reviews {
+    width: 100%;
+}
+.reviewCard{
+    display: flex;
+    width: 342px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(145, 158, 171, 0.24);
+}
+.reviewCard > div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+.reviewCard > div:nth-child(1) > div:nth-child(1){
+    width: 96px;
+    height: 96px;
+    position: relative;
+}
+.reviewCard > div:nth-child(1) > div:nth-child(1) > div:nth-child(1){
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 100px;
+}
+.reviewCard > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+.reviewCard > div:nth-child(1) > div:nth-child(1) > div:nth-child(2){
+    background: #FFF;
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    border-radius: 100px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviewCard > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) img{
+    width: 20px;
+}
+.reviewCard > div:nth-child(1) > div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.reviewCard > div:nth-child(1) > div:nth-child(2) p{
+    height: 20px;
+}
+.reviewCard > div:nth-child(1) > div:nth-child(2) span{
+    height: 28px;
+    font-weight: 600;
+}
+.reviewCard > div:nth-child(1) > p{
+    width: 95%;
+    text-align: center;
+}
+.reviewCard > div:nth-child(2) button{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+.reviewCard > div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviewCard > div:nth-child(3) > button{
+    display: flex;
+    padding: 11px 22px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid rgba(145, 158, 171, 0.32);
+    cursor: pointer;
+    background: none;
+}
+.reviewCard > div:nth-child(3) span{
+    font-size: 15px;
+    font-weight: 600;
+}
+.reviewCard > div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.allreviews{
+    display: flex;
+    width : 70%;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.allreviews > div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+.allreviews > div:nth-child(1) > div{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+.allreviews  select{
+    display: flex;
+    width: 140px;
+    align-items: center;
+    gap: 13px;
+    border-radius: 8px;
+    background: rgba(145, 158, 171, 0.08);
+    outline: none;
+    text-align: center;
+    border: none;
+    height: 48px;
+}
+.allreviews select {
+    display: flex;
+    padding: 13px 0px 10px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    color:  #212B36;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.allreviews button{
+    display: flex;
+    padding: 11px 22px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background:  #212B36;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    cursor: pointer;
+    border: none;
+}
+.comentsWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+.comentsWrapper > div{
+    display: flex;
+    padding: 32px 0 0 0;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+.comentsWrapper > div > img{
+    width: 48px;
+    border-radius: 100px ;
+}
+.comentTextCont{
+    display: flex;
+    width: 91%;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid #919EAB3D;
+    padding: 0 0 32px 0;
+}
+.comentTextCont > div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    margin-bottom: 4px;
+}
+.comentTextCont > div:nth-child(1) > div img{
+    width: 18px;
+}
+.comentTextCont h4,
+.comentTextCont p{
+    color: #212B36;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+.comentTextCont span,
+.comentTextCont button{
+    color: #637381;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    margin-bottom: 4px;
+}
+.comentTextCont p {
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.comentTextContBtn{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.comentTextContBtn button{
+    display: flex;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 22px; 
+    background: none;
+    color: #212B36;
+    margin-bottom: 0;
+}
+.reviewCommentAnswer{
+    width: 91% !important;
+}
+.mightLike button{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+}
+.mightLike{
+    display: flex;
+    padding: 120px 144px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    background: #F9FAFB;
+}
+.mightLike > div > h1{
+    color:  #212B36;
+    font-family: 'Barlow', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+}
+.mightLike > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+.mightLike> div > button{
+    display: flex;
+    padding: 11px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    color:  #FA541C;
+    border: none;
+    background: none;
+    cursor: pointer;
+}    
+.cards{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+.comentInput input{
+    color: #637381;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    display: flex;
+    height: 56px;
+    padding: 14px 0 16px 12px;
+    width: 80%;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    background:  rgba(145, 158, 171, 0.08);
+    border: none;
+    outline: none;
+    
+}
+.comentInput input{
+    color: #212B36;
+
+}
+.comentInput button{
+    display: flex;
+    padding: 11px 22px;
+    justify-content: center;
+    align-items: center;
+    color:  #FFF;
+    font-family: 'Barlow',sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    border-radius: 8px;
+    background:  #FA541C;
+    border: none;
+    cursor: pointer;
+
+}
+.comentInput{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.comentInput input::placeholder{
+    color:  #919EAB;
+    font-size: 14px;
+    line-height: 26px;
+}
+@media(max-width: 576px){
+    .Container{
+        margin: 0 20px;
+    }
+    .gallery > div{
+        flex-direction: column;
+    }
+    .gallery > div > img{
+        width: 100%;
+    }
+    .gallery > div > div{
+        width: 100%;
+    }   
+    .gallery > div > div img{
+        width: 48.85%;
+    }
+    .overview > div{
+        display: flex;
+        width: 90%;
+        padding: 64px 0;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 40px;
+        margin: 0 20px;
+    }
+    .OT1 h1{
+        font-size: 24px;
+        text-align: left;
+    }
+    .OT1,
+    .OT2,
+    .OT3 > div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+    }
+    .OT3 > div {
+        gap: 20px;
+    }
+    .OT6 > div{
+        flex-direction: column;
+    }
+    .overviewText{
+        width: 100%;
+    }
+    .OTBTNS{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .BTN3{
+        margin-left: 17.6%;
+    }
+    .reviews > div{
+        display: flex;
+        width: 90%;
+        padding: 80px 0;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 64px;
+    }
+    .reviewCard,
+    .overviewCard{
+        width: 100%;
+    }
+    .allreviews{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+        align-self: stretch;
+        width: 100%;
+    }
+    .allreviews > div:nth-child(1){
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: normal;
+    }
+    .comentTextCont > div:nth-child(1){
+        flex-direction: column;
+        align-items: normal;
+        gap: 8px;
+    }
+    .reviewCommentAnswer{
+        display: none !important;
+    }
+    .mightLike{
+        display: flex;
+        width: 100%;
+        padding: 80px 20px 120px;
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+    }
+    .cards{
+        flex-direction: column;
+        margin: 48px 0;
+    }
+    .mightLike > div:nth-child(1) button{
+        position: absolute;
+        top: 3750%;
+        left: 35%;
+    }
+    .mightLike > div:nth-child(1){
+        position: relative;
+        align-self: normal;
+        text-align: center;
+        display: block;
+    }
+}

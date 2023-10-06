@@ -1,0 +1,159 @@
+.Compleated{
+    display: flex;
+    width: 100%;
+    padding: 80px 144px 120px 144px;
+    align-items: flex-start;
+    gap: 80px;
+}
+.Compleated > img{
+    border-radius: 16px;
+    width: 45%;
+    height: 100%;
+}
+.Compleated > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    flex: 1 0 0;
+}
+.Compleated>  div > h1{
+    color: #212B36;
+    font-family: 'Barlow', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; 
+}
+.Compleated span,
+.Compleated p{
+    color:  #919EAB;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.Compleated p,
+.Compleated h2{
+    color:  #212B36;
+    font-weight: 600;
+}
+.Compleated h2{
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 30px; /* 150% */
+}
+.CompleatedUser ,
+.CompleatedDetails > div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 4px;
+    align-items: center;
+}
+.CompleatedUser > div:nth-child(1) > div{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.CompleatedUser > div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.CompleatedUser > div:nth-child(2) img{
+    width: 40px;
+    border-radius: 100px;
+}
+.CompleatedDetails{
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    border: 1px dashed #919EAB3D;
+    border-radius: 16px;
+}
+.CompleatedDetails > div > div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.nullDiv{
+    width: 100%;
+    height: 1px;
+    border: 1px dashed #919EAB3D
+    ;
+
+}
+.CompleatedBtns{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;    
+
+}
+.CompleatedBtns button{
+    display: flex;
+    padding: 11px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.CompleatedBtns button:nth-child(2){
+    background:  #FA541C;
+    color:  #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; 
+}
+.CompleatedBtns button:nth-child(1) img{
+    transform: rotate(180deg);
+}
+@media (max-width: 576px){
+    .Compleated{
+        display: flex;
+        padding: 64px 20px 80px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+        align-self: stretch;
+    }
+    .Compleated > img{
+        display: none;
+    }
+    .CompleatedUser{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .CompleatedBtns{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+        width: 100%;
+    }
+    .CompleatedBtns > button{
+        width: 100%;
+    }
+    .Compleated> div>  h1{
+        font-size: 32px;
+    }
+    .Compleated > div{
+        width: 100%;
+    }
+}

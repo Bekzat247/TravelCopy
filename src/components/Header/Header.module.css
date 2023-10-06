@@ -1,0 +1,115 @@
+.wrapper > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.wrapper > div:nth-child(1){
+    gap: 48px;
+}
+.wrapper{
+    display: flex;
+    padding: 28px 144px;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;
+    width: 100%;
+    /* margin: 28px 144px; */
+}
+.wrapper a,
+.wrapper select{
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background: none;
+    outline: none;
+}
+.wrapper a {
+    color: var(--11-text-color-dark-01-text-primary, #FFF);
+
+}
+.wrapper a span{
+    color: #919EAB;
+}
+.pages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+.wrapper a:first-child{ 
+    height: 20px;
+}
+
+.wrapper a button{
+    padding: 6px 16px;
+    background-color: white;
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+
+}
+.wrapper div:nth-child(2) a:nth-child(2),
+.wrapper div:nth-child(2) a:nth-child(3){
+    height: 20px;
+}
+.wrapper >  a:nth-child(1) img {
+    height: 27px;
+} 
+.wrapper > div:nth-child(2){
+    width: 25%;
+}
+.wrapper > div:nth-child(2) >button{
+    display: none;
+    border: none;
+    cursor: pointer;
+    background: none;
+    height: 24px;
+}
+@media (max-width: 576px){
+    .wrapper{
+        height: 64px;
+        padding: 40px 20px;
+        align-items: center;
+        gap: 0 !important;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .wrapper > div:nth-child(2) > button{
+        display: block;
+    }
+    .wrapper > div:nth-child(1) > a > span , 
+    .wrapper > div:nth-child(1) > a > div{
+        display: none;
+    }
+    .wrapper > div:nth-child(2) >*{
+        display: none;
+    }
+    .wrapper > div:nth-child(2) > a:nth-child(2){
+        display: block;
+    }
+    .wrapper > div:nth-child(2) > a:nth-child(1) > img:nth-child(2){
+        width: 24px;
+    }
+    .wrapper > div:nth-child(2) > a:nth-child(1) > img:nth-child(1){
+        display: block;
+    }
+    .wrapper > div:nth-child(2) > a:nth-child(1){
+        display: flex;
+        justify-content: space-between;
+        width: 88px;
+    }
+    .wrapper > div:nth-child(2) > a:nth-child(1) img{
+        width: 40px;
+    }
+    .wrapper > div:nth-child(1){
+        gap: 0;
+    }
+
+}

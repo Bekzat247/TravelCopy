@@ -1,0 +1,1226 @@
+.travelHero{
+    height: 880px;
+    background-image: url(./landingImage/OVERLAY.png), url(./landingImage/OVERLAY/OVERLAY.png), url(./landingImage/IMG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tour, .country{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.tour{
+    gap: 40px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.tour a{
+    color: var(--02-secondary-03-main, #22B8CF);
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.tour h1{
+    color: var(--08-common-01-white, #FFF);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+}
+.tour >div{
+    gap: 40px;
+}
+.tour > div div, .tour > div{
+    display: flex;
+    justify-content: space-between;
+}
+.tour > div div{
+    gap: 8px;
+    color: white;
+}
+.tour button{
+    display: flex;
+    padding: 11px 22px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    background: var(--01-primary-03-main, #FA541C);
+    color: var(--08-common-01-white, #FFF);
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; 
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.country a >div{
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 16px;
+}
+.country a > div:hover{
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(4px);
+    transition: ease-in-out 0.3s;
+}
+.country a > div > div{
+    display: flex;
+    width: 96px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+.country a > div > div > div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.country a h3{
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    font-family: ''Barlow', sans-serif', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.country {
+    color: white;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);   
+}
+.country a{
+    text-decoration: none;
+    color: white;
+}
+.filter{
+    display: flex;
+    align-items: flex-end;
+    
+}
+.filterDiv{
+    margin: auto;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+
+}
+.different{
+    display: flex;
+    padding: 80px 0px 80px 144px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+    height: 1417px;
+}
+.difTravel{
+    display: flex;
+    width: 480px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.difTravel h1{
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    font-family: 'Barlow', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    align-self: stretch;
+    color: #212B36;
+}
+.difTravel p{
+    color: var(--11-text-color-light-02-text-secondary, #637381);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    align-self: stretch;
+    color: #637381;
+}
+.device {
+    background-image: url(./landingImage/IMG\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 729px;
+    width: 100%;
+}
+.device div{
+    display: flex;
+    width: 360px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 16px;
+    background: var(--12-background-light-02-paper, #FFF);
+    box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+    margin: 40px;
+}
+.device h1{
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    font-family: 'Barlow', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+}
+.device p{
+    color: var(--11-text-color-light-03-text-disabled, #919EAB);
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.device a {
+    text-decoration: none;
+    color: #FA541C;
+    color: var(--01-primary-03-main, #FA541C);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.reviews{
+    display: flex;
+    width: 91%;
+    align-items: center;
+    gap: 24px;
+}
+.reviews > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+.reviews >div{
+    display: flex;
+    padding: 0px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex: 1 0 0;
+}
+.reviews h1{
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+}
+.reviews p{
+    color: var(--11-text-color-light-02-text-secondary, #637381);
+    text-align: center;  
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    align-self: stretch;
+}
+.rating{
+    display: flex;
+    padding: 80px 144px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.rating h1{
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+}
+.rating p{
+    color: var(--11-text-color-light-02-text-secondary, #637381);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.rating div:nth-child(1){
+    display: flex;
+    width: 480px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.rating div:nth-child(2){
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 24px;
+}
+.rating div:nth-child(2) > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex: 1 0 0;
+}
+.rating div:nth-child(2) div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+.destinations{
+    display: flex;
+    width: 100%;
+    padding: 80px 144px;
+    justify-content: space-between;
+    align-items: center;
+}
+.des_list{
+    display: flex;
+    width: 368px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;
+}
+.des_list ul,
+.testCustomersText ul{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-left: 17px;
+}
+.des_list li,
+.testCustomersText li{
+    color: #FA541C;
+}
+.des_list span,
+.testCustomersText span{
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+
+}
+.des_list h1,
+.fea_tours h1,
+.toursText h1{
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    font-family: 'Barlow', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+}
+.fea_tours h1{
+    text-align: center;
+}
+.des_list p,
+.fea_tours p,
+.toursText p{
+    color: var(--11-text-color-light-02-text-secondary, #637381);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.cards h1{
+    color: var(--08-common-01-white, #FFF);
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+.cards p{
+    color: var(--08-common-01-white, #FFF);
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.top_cards, .bottom_cards{
+    display: flex;
+    gap: 24px;
+}
+.top_cards{
+    align-items: flex-end;
+}
+.top_cards h1,
+.bottom_cards h1{
+    cursor: pointer;
+}
+.cards > div > div{
+    width: 270px;
+    background-size: cover;
+    border-radius: 16px;
+    flex-shrink: 0;
+    position: relative;
+}
+.cards > div > div > div{
+    display: inline-flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    bottom: 0;
+}
+.cards > div > div > div > div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.top_cards >div >div{
+    display: inline-flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    bottom: 0;
+}
+.top_cards >div >div >div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.bottom_cards{
+    align-items: flex-start;
+}
+.Hongkong{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -1.23%, #000 80%), url(./landingImage/ratinfImage/IMG.png);
+    height: 360px;
+}
+.Ireland{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.00) -1.23%, #000 80%), url(./landingImage/ratinfImage/IMG\ \(2\).png);
+    height: 270px;
+}
+.madagascar{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -1.23%, #000 80%), url(./landingImage/ratinfImage/IMG\ \(4\).png);
+    height: 270px;
+}
+.vietnam{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -1.23%, #000 80%), url(./landingImage/ratinfImage/IMG\ \(3\).png);
+    height: 360px;
+}
+.featured{
+    display: flex;
+    width: 100%;
+    padding: 80px 144px 60px 144px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.fea_tours{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.fea_cards{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    justify-content: space-between;
+}
+.toursCard p{
+    color: var(--11-text-color-light-02-text-secondary, #637381);
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    align-self: stretch;
+}
+
+.toursCard h1{
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    align-self: stretch;
+    cursor: pointer;
+}
+
+.fea_card{
+    display: flex;
+    height: 435px;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 16px;
+    background: var(--12-background-light-02-paper, #FFF);
+    box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+}
+.fea_card >div:first-child > div{
+    display: flex;
+    width: 100%;
+    padding: 12px 12px 0px 16px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+.fea_card >div:first-child > div label{
+    display: flex;
+    width: 56px;
+    padding: 0px 8px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    color: var(--08-common-01-white, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    border-radius: 6px;
+    background: var(--07-grey-800, #212B36);
+}
+.fea_card >div:first-child {
+    display: flex;
+    width: 100%;
+    height: 242px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-size: cover;
+    position: relative;
+    border-radius: 16px 16px 0 0;
+}
+
+.fea_liker{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    border-radius: 50px;
+    background: rgba(33, 43, 54, 0.24);
+}
+.fea_tour{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.fea_tour >div:first-child{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+.fea_tour >div:first-child h1{
+    height: 56px;
+}
+.fea_tour > div:last-child{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-top: 1px dashed #919EAB3D;
+}
+.fea_tour >div:last-child > div{
+    display: flex;
+    align-items: center;
+}
+.fea_tour div:last-child div:first-child{
+    gap: 8px;
+}
+.fea_tour div:last-child div:last-child{
+    gap: 4px;
+}
+.fea_warsaw{
+    background-image: url(./landingImage/featuredImage/IMG.png);
+}
+.fea_estonia{
+    background-image: url(./landingImage/featuredImage/IMG\ \(2\).png);
+}
+.fea_thailand{
+    background-image: url(./landingImage/featuredImage/IMG\ \(3\).png);
+}
+.fea_thailand2{
+    background-image: url(./landingImage/featuredImage/IMG\ \(4\).png);
+}
+.featured button{
+    display: flex;
+    padding: 11px 22px;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 8px;
+    border-radius: 8px;
+    background: var(--01-primary-03-main, #FA541C);
+    color: var(--08-common-01-white, #FFF);
+}
+.featured button,
+.toursText button,
+.latestPostText button{
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+
+}
+.myCustomButton {
+    border-radius: 16px;
+}
+.toursByCity{
+    display: flex;
+    width: 100%;
+    padding: 80px 144px 120px 144px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.toursText{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    align-self: stretch;
+}
+.toursText div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.toursText div{
+    flex: 1 0 0;
+}
+.toursText button,
+.latestPostText button{
+    display: flex;
+    padding: 11px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: #FFF;
+    color: #FA541C;
+}
+.toursContacts > div{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+
+}
+.toursContacts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.toursCard{
+    display: flex;
+    width: 270px;
+    padding: 24px;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    width: 23.5%;
+    padding: 24px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 16px;
+    border: 1px solid var(--14-others-divider, rgba(145, 158, 171, 0.24));
+    background: var(--12-background-light-01-default, #FFF);
+}
+.toursCard img{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 50px;
+}
+.toursCard div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+.latestPost{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    background: #161C24;
+}
+.PostCarouselWrapper{
+    width: 50%;
+    height: 965px;
+    position: relative;
+}
+.latestPostCarousel{
+    width: 100%;
+    height: 965px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -1.23%, #000 80%),url(./landingImage/latestPostImage/IMG.png);
+    background-size: cover;
+    position: relative;
+}
+.latestPostText{
+    display: flex;
+    padding: 80px 144px 80px 120px;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 1 0 0;
+}
+.latestPostCarousel > div:nth-child(1){
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    width: 55%;
+    top: 50%;
+
+}
+.latestPostCarousel > div:nth-child(1),
+.latestPostCarousel2{
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.latestPostCarousel > div:nth-child(1) > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+.latestPostCarousel > div:nth-child(1) > div > div{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.latestPostCarousel > div:nth-child(1) > div > div p,
+.latestPostText > div > div > div > div p{
+    color: var(--01-primary-03-main, #FA541C);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.latestPostCarousel > div:nth-child(1) > div > div h1{
+    color: var(--08-common-01-white, #FFF);
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    align-self: stretch;
+}
+.latestPostCarousel > div:nth-child(1) > div p,
+.latestPostText > div > div > div p{
+    color: var(--08-common-01-white, #FFF);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.72;  
+}
+.latestPostCarousel > div:nth-child(1) > div p{
+    text-align: center;
+    width: 100%;
+}
+.latestPostCarousel button{
+    display: flex;
+    width: 56px;
+    height: 56px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: var(--01-primary-03-main, #FA541C);
+    box-shadow: 0px 8px 16px 0px rgba(250, 84, 28, 0.24);
+    border: none;
+    cursor: pointer;
+}
+.latestPostCarousel2{
+    display: inline-flex;
+    align-items: flex-start;
+    top: 90%;
+}
+.latestPostCarousel2 div{
+    display: flex;
+    padding: 5px;
+    align-items: flex-start;
+    opacity: 0.32;
+}
+.latestPostCarousel2 div:nth-child(2){
+    opacity: 1;
+}
+.latestPostText >h1, 
+.latestPost > h1{
+    color: var(--08-common-01-white, #FFF);
+    font-family: 'Barlow', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    width: 100%;
+}
+.latestPost > h1{
+    display: none;
+}
+.latestPostText > div > div,
+.latestPostText > div > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.latestPostText > div{
+    display: flex;
+    padding: 80px 0px 40px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+.latestPostText > div > div{
+    gap: 16px;
+    border-bottom: 1px dashed #919EAB3D;
+    padding-bottom: 24px;
+}
+.latestPostText > div > div > div{
+    gap: 8px;
+}
+.latestPostText > div > div > div > div h1{
+    color: var(--08-common-01-white, #FFF);
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; 
+    align-self: stretch;
+}
+.latestPostText > div > div > div p{
+    color: #919EAB;
+    align-self: stretch;
+}
+.latestPostText button{
+    background: none;
+}
+.testimonals{
+    display: flex;
+    padding: 120px 144px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+}
+.testCustomers{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.testCustomersText{
+    display: flex;
+    width: 50%; 
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    flex-shrink: 0;
+}
+.testCustomersText > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.testCustomersText > div > div {
+    display: flex;
+    padding: 16px 0px 40px 0px;
+    align-items: flex-start;
+}
+.testCustomersText > div > div p {
+    color: #212B36;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    line-height: 36px;
+}
+.testimonalsButtons{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+.testimonalsButtons > button{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.testimonalsButtons > button:nth-child(1){
+    transform: rotate(180deg);
+}
+.testCustomersImg{
+    display: flex;
+    height: 288px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.testCustomersImg div{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.testCustomersImg > div:nth-child(1){
+    align-items: flex-end;
+}
+.testCustomersImg > div:nth-child(2){
+    align-items: center;
+}
+.testCustomersImg > div:nth-child(3){
+    align-items: flex-start;
+}
+@media (max-width: 576px){
+    .country{
+        display: none;
+    }
+    .tour{
+        display: flex;
+        width: 100%;
+        padding: 0px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        top: 45%;
+    }
+    .difTravel h1,
+    .rating h1,
+    .des_list h1,
+    .fea_tours h1,
+    .toursText h1,
+    .latestPost h1{
+        font-size: 32px;
+    }
+    .tour > h1{
+        font-size: 40px;
+    }
+    .tour > div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .travelHero{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        height: 740px;
+        width: 100%;
+    }
+    .filterDiv{
+        top: 115%;
+    }
+    .different{
+        display: flex;
+        padding: 64px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 64px;
+        margin-top: 100%;
+        height: 100%;
+    }
+    .difTravel{
+        display: flex;
+        width: 100%;
+        padding: 0px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px; 
+        text-align: center;   
+    }
+    .device{
+        display: flex;
+        width: 100%;
+        height: 318px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    .device> div{
+        display: flex;
+        width: 335px;
+        padding: 40px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        text-align: center;
+        margin: 0;
+    }
+    .device h1{
+        color: var(--11-text-color-light-01-text-primary, #212B36);
+        text-align: center;
+        font-family: 'Barlow', sans-serif;
+        font-size: 24px !important;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px;
+    }
+    .reviews{
+        display: flex;
+        padding: 64px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 64px;
+        width: 100%;
+    }
+    .reviews > div{
+        width: 100%;
+    }
+    .rating{
+        display: flex;
+        width: 100%;
+        padding: 64px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+    }
+    .rating > div:first-child, 
+    .rating > div:nth-child(2) > div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        align-self: stretch;
+        width: 100%;
+    }
+    .rating > div:nth-child(2){
+        flex-direction: column;
+    }
+    .destinations{
+        display: flex;
+        width: 100%;
+        padding: 64px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+    }
+    .des_list{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+        width: 100%;
+    }
+    .des_list ul{
+
+        width: 80%;
+    }
+    .des_list h1 {
+        text-align: left;
+    } 
+    .des_list span {
+        font-weight: 400;
+    }
+    .top_cards,
+    .bottom_cards{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        width: 100%;
+    }
+    .Hongkong, 
+    .Ireland,
+    .madagascar,
+    .vietnam{
+        width: 100% !important;
+        height: 335px;
+    }
+    .cards{
+        width: 100%;
+    }
+    .cards h1{
+        font-size: 24px !important;
+    }
+    .featured{
+        display: flex;
+        width: 100%;
+        padding: 64px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+    }
+    .fea_tours{
+        text-align: center;
+    }
+    .fea_cards{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        align-self: stretch;
+    }
+    .fea_cards h1{
+        font-size: 18px !important;
+    }
+    .toursByCity{
+        display: flex;
+        width: 100%;
+        padding: 64px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+    }
+    .toursText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        align-self: stretch;
+        text-align: center;
+        position: relative;
+    }
+    .toursContacts, 
+    .toursContacts > div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+    }
+    .toursCard {
+        width: 100%;
+    }
+    .toursText > button{
+        position: absolute;
+        top: 930%;
+    }
+    .latestPost{
+        display: flex;
+        width: 100%;
+        padding: 64px 0px;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        margin-top: 85px;
+    }
+    .latestPost > h1{
+        display: block;
+        margin-left: 20px;
+    }
+    .PostCarouselWrapper{
+        width: 100%;
+    }
+    .latestPostText{
+        display: flex;
+        padding: 0px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        align-self: stretch;
+    }
+    .latestPostText > div h1{
+        font-size: 18px;
+    }
+    .latestPostText > div{
+        padding: 0 0 64px 0;
+    }
+    .latestPostText > h1{
+        display: none;
+    }
+    .testimonals{
+        display: flex;
+        width: 100%;
+        padding: 80px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+    }
+    .testCustomersImg{
+        display: none;
+    }
+    .testCustomersText, 
+    .testCustomersText> div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .testCustomersText > div ul{
+        width: fit-content;
+        margin: 0;
+    }
+    .testCustomersText h1{
+        font-size: 32px;
+    }
+}

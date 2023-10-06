@@ -1,0 +1,786 @@
+.mainContent > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.mainContent{
+    width: 100%;
+    padding: 80px 0 120px 0;
+
+}
+.container {
+    margin: 0 144px;
+}
+.MCText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.MCPosters,
+.MCStatistic{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+.mainContent h1,
+.MCStatistic h2,
+.textContent h3,
+.textConent h4,
+.ourMission h2,
+.ourMission h1,
+.ourTeam h1,
+.ourTeamWrapper h6,
+.testCustomersText h1,
+.clients h2,
+.clients h4,
+.latestPost h1{
+    color: #212B36;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; 
+}
+.mainContent span,
+.textContent span,
+.ourMission span,
+.ourMission span,
+.ourTeam span,
+.clients span{
+    color:  #637381;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+.MCPosters img{
+    border-radius: 16px;
+}
+
+.MCStatistic  > div > div i{
+    color:  #FA541C;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+.MCStatistic h2,
+.ourMission h2,
+.testCustomersText h1{
+    font-size: 48px;
+    line-height: 64px;
+}
+.MCStatistic > div > div{
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+}
+.MCStatistic > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+.textContent> div{
+    display: flex;
+    align-items: flex-start;
+    gap: 122px;
+}
+.textContent {
+    width: 100%;
+
+}
+.textContent h3{
+    font-size: 36px;
+    line-height: 54px;
+    text-align: left;
+}
+.textContent h4,
+.clients h4{
+    font-size: 24px;
+    line-height: 36px;
+}
+.textContent > div > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+.textContent > div > div:first-child{
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex-shrink: 0;
+}
+.textContent > div > div:first-child > div{
+    border-radius: 50px;
+    background:  #FA541C;
+    width: 24px;
+    height: 3px;
+}
+.textContent span{
+    text-align: left;
+}
+.ourMission{
+    width: 100%;
+
+}
+.ourMission > div{
+    display: flex;
+    padding: 80px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+.ourMission > div > div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.ourMission h1{
+    opacity: 0.24;
+}
+.ourMission > div > div:nth-child(2){
+    display: flex;
+    align-items: center;
+    gap: 122px;
+    align-self: stretch;
+}
+.ourMission > div > div:nth-child(2) > div{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex: 1 0 0;
+}
+.ourMissionCard{
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 16px;
+    background:  #FFF;
+    box-shadow: -24px 24px 72px -8px rgba(145, 158, 171, 0.24);
+}
+.ourMissionCard > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+.ourMission > div > div:nth-child(2) > div > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+    width: 402px;
+}
+.ourMission > div > div:nth-child(2) > div > div{
+    width: 48%;
+}
+.ourTeam{
+    width: 100%;
+}
+.ourTeam > div{
+    display: flex;
+    padding: 80px 144px 120px 144px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.ourTeam > div > div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 480px;
+}
+
+.ourTeamWrapper{
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.ourTeamWrapper > div{
+    display: flex;
+    width: 23%;
+    height: 360px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    justify-content: flex-end;
+}
+.ourTeamWrapper > div > div{
+    display: flex;
+    width: 100%;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    opacity: 0;
+}
+.ourTeamWrapper > div > div:hover{
+    opacity: 1;
+}
+.ourTeamWrapper > div > div > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.ourTeamWrapper > div > div > div > img{
+    display: flex;
+    width: 28px;
+    height: 28px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.ourTeamWrapper span{
+    font-size: 13px;
+    line-height: 24px;
+}
+.ourTeamWrapper h6{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px; 
+    color: #fff;
+}
+.AgataIris{
+    transition: ease-in-out 0.5s;
+    background-image: url(./aboutUsUserImage/IMGUser1.png);
+    background-position: center;
+    transition: ease-in-out 0.5s;
+}
+.AgataIris:hover{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.00) -1.23%, #000 80%), url(./aboutUsUserImage/IMGUser1.png);
+    background-position: center;
+}
+.ViolaWendy{
+    background-blend-mode: multiply;
+    background-image: url(./aboutUsUserImage/IMGuser2.png);
+    background-position: center;
+
+}
+.ViolaWendy:hover{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.00) -1.23%, #000 80%), url(./aboutUsUserImage/IMGuser2.png);
+    background-position: center;
+}
+
+.SamEdgar{
+    background-image: url(./aboutUsUserImage/IMGUser3.png);
+    background-position: center;
+}
+.SamEdgar:hover{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.00) -1.23%, #000 80%), url(./aboutUsUserImage/IMGUser3.png);
+    background-position: center;
+}
+
+.OberonRegis{
+    background-image: url(./aboutUsUserImage/IMGUser4.png);
+    background-position: center;
+    background-size: cover;
+
+
+}
+.OberonRegis:hover{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.00) -1.23%, #000 80%), url(./aboutUsUserImage/IMGUser4.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.LeonaKelly{
+    background-image: url(./aboutUsUserImage/IMGUser5.png);
+    background-position: center;
+
+}
+.LeonaKelly:hover{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.00) -1.23%, #000 80%), url(./aboutUsUserImage/IMGUser5.png);
+    background-position: center;
+}
+
+.GeorgeOliver{
+    background-image: url(./aboutUsUserImage/IMGUser6.png);
+    background-position: center;
+
+}
+.GeorgeOliver:hover{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.00) -1.23%, #000 80%), url(./aboutUsUserImage/IMGUser6.png);
+    background-position: center;
+}
+
+.SavannahNguyen{
+    background-image: url(./aboutUsUserImage/IMGUser7.png);
+    background-position: 30%;
+    background-size: cover;
+
+}
+.SavannahNguyen:hover{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.00) -1.23%, #000 80%), url(./aboutUsUserImage/IMGUser7.png);
+    background-position: 30%;
+    background-size: cover;
+}
+
+.EllaEster{
+    background-image: url(./aboutUsUserImage/IMGUser8.png);
+    background-position: center;
+    background-size: cover;
+}
+.EllaEster:hover{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.00) -1.23%, #000 80%), url(./aboutUsUserImage/IMGUser8.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.testimonals{
+    display: flex;
+    padding: 120px 144px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+}
+.testCustomers{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.testCustomersText{
+    display: flex;
+    width: 50%; 
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    flex-shrink: 0;
+}
+.testCustomersText > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.testCustomersText > div > div {
+    display: flex;
+    padding: 16px 0px 40px 0px;
+    align-items: flex-start;
+}
+.testCustomersText > div > div p {
+    color: #212B36;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    line-height: 36px;
+}
+.testimonalsButtons{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+.testimonalsButtons > button{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.testimonalsButtons > button:nth-child(1){
+    transform: rotate(180deg);
+}
+.testCustomersImg{
+    display: flex;
+    height: 288px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.testCustomersImg div{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.testCustomersImg > div:nth-child(1){
+    align-items: flex-end;
+}
+.testCustomersImg > div:nth-child(2){
+    align-items: center;
+}
+.testCustomersImg > div:nth-child(3){
+    align-items: flex-start;
+}
+.testCustomersText ul{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-left: 17px;
+}
+
+.testCustomersText li{
+    color: #FA541C;
+}
+
+.testCustomersText span{
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+.testCustomersText h1{
+    text-align: left;
+}
+.clients{
+    width: 100%;
+}
+.clients > div{
+    display: flex;
+    padding: 120px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 120px;
+}
+
+.clients > div > div:nth-child(1){
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 24px;
+    
+}
+.clients > div > div:nth-child(1) > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+.clients > div > div:nth-child(1) h2{
+    flex: 1 0 0 ;
+    text-align: left;
+}
+.clients > div > div:nth-child(1) span,
+.clients > div > div:nth-child(1) h4{
+    text-align: left;
+}
+.clients > div > div:nth-child(2){
+    display: flex;
+    gap: 48px 24px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+.clients > div > div:nth-child(2) img{
+    margin-right: 14%;
+}
+.latestPost > div{
+    display: flex;
+    padding: 120px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.latestPost button{
+    display: flex;
+    padding: 6px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #FA541C;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+
+}
+.latestPost > div > div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.latestPost h1{
+    color: #212B36;
+}
+.latestPost > div > div:nth-child(2){
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+@media (max-width: 576px){
+    .container{
+        margin: 0;
+    }
+    .mainContent{
+        width: 100%;
+        padding: 64px 20px;
+
+    }
+    .mainContent> div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+    }
+    .mainContent h1{
+        font-size: 40px;
+    }
+    .mainContent span{
+        font-size: 16px;
+    }
+    .MCPosters > img:nth-child(2),
+    .MCPosters > img:nth-child(3),
+    .MCPosters > img:nth-child(4){
+        display: none;
+    }
+    .MCPosters,
+    .MCPosters img{
+        width: 100%;
+    }
+    .MCStatistic{
+        flex-wrap: wrap;
+        gap: 24px 48px;
+    }
+    .textContent{
+        width: 100%;
+        padding: 20px;
+
+    }
+    .textContent > div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+    .textContent h3{
+        font-size: 24px;
+        text-align: center;
+        line-height: 36px;
+        width: 100%;
+    }
+    .textContent span{
+        text-align: center;
+    }
+    .textContent > div > div:first-child{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        width: 100%;
+        align-self: stretch;
+    }
+    .textContent > div > div:nth-child(2){
+        text-align: center;
+    }
+    .ourMission{
+        width: 100%;
+        padding: 64px 20px;
+    }
+    .ourMission > div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+    }
+    .ourMission > div > div:nth-child(2){
+        flex-direction: column;
+    }
+    .ourMission > div > div:nth-child(2) > img{
+        width: 295px;
+    }
+    .ourMission >div > div:nth-child(2) > div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        align-self: stretch;
+    }
+    .ourMission > div > div:nth-child(2) > div > div{
+        width: 100%;
+    }
+    .ourMission > div > div:nth-child(2) > div > div:nth-child(2) {
+        width: 100%;
+    }
+    .ourMission > div > div:nth-child(1){
+        align-items: center;
+    }
+    .ourMission h2,
+    .ourTeam h1,
+    .testimonals h1,
+    .clients h2 {
+        font-size: 32px;
+    }
+    .clients h4{
+        font-size: 20px;
+    }
+    .ourMission span,
+    .ourTeam span{
+        font-size: 16px;
+    }
+    
+    .ourTeam{
+        width: 100%;
+        padding: 64px 20px;
+    }
+    .ourTeam > div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        padding: 0;
+    }
+    .ourTeam > div > div:nth-child(1){
+        width: 100%;
+    } 
+    .ourTeamWrapper{
+        flex-direction: column;
+    }
+    .ourTeamWrapper > div{
+        width: 100%;
+    }
+    .testimonals{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        padding: 0;
+        width: 100%;
+        padding: 80px 20px;
+    }
+    .testCustomersText{
+        width: 100%;
+        align-items: center;
+    }
+    .testCustomersText > div{
+        align-items: center;
+    }
+    .testCustomersText ul{
+        align-items: center;
+        margin: 0%;
+    }
+    .testCustomersText p{
+        text-align: center;
+    }
+    .testCustomersImg{
+        display: none;
+    }
+    .clients{
+        width: 100%;
+        padding: 64px 20px;
+
+    }
+    .clients> div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        padding: 0;
+    }
+    .clients > div > div:nth-child(1){
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        text-align: center;
+    }
+    .clients > div > div:nth-child(1) h4,
+    .clients > div > div:nth-child(1) span{
+        text-align: center;
+    }
+    .clients> div > div:nth-child(2) img{
+        margin: 0 8.1%;
+    }
+    .latestPC{
+        display: none;
+    }
+    .latestPost h1{
+        font-size: 32px;
+    }
+    .latestPostPhoneWrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+    }
+    .latestPostPhoneWrapper > div{
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        align-self: stretch;
+        height: 80px;
+    }
+    .latestPostPhoneWrapper > div > img{
+        width: 80px;
+        border-radius: 12px;
+    }
+    .latestPostPhoneWrapper > div span{
+        color:  #212B36;
+        font-family: 'Barlow', sans-serif;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+    }
+    .latestPostPhoneWrapper > div i{
+        color:  #919EAB;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .latestPostPhoneWrapper > div > div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        flex: 1 0 0;
+    }
+    .latestPost > div > div:nth-child(1){
+        display: block;
+    }
+    .latestPost > div > div:nth-child(1) button{
+        position: absolute;
+        bottom: 8%;
+        left: 39%;
+    }
+    .latestPost{
+        position: relative;
+        display: flex;
+        padding: 64px 20px;
+    }
+} 
