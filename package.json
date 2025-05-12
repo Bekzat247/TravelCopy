@@ -2,6 +2,7 @@
   "name": "travel",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bekzat247.github.io/TravelCopy",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.17.0",
@@ -44,6 +45,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  },
-  "homepage": "https://bekzat247.github.io/TravelCopy"
+  }
 }
